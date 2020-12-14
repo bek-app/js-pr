@@ -122,4 +122,15 @@
 // }
 // funcWeek(6);
 
- 
+ let salaries= {
+     John: 55,
+     Max:90,
+     Make:60,
+     Bek:50
+
+ }
+ let summ=0;
+  for(let key in salaries){
+      summ+=salaries[key];
+  }
+  console.log(summ);
