@@ -134,3 +134,75 @@
       summ+=salaries[key];
   }
   console.log(summ);
+
+  let menu = {
+    width: 200,
+    height: 300,
+    title: "My menu"
+  };
+ 
+  // Напишите код, выполнив задание из каждого пункта отдельной строкой:
+
+  // Создайте пустой объект user.
+  // Добавьте свойство name со значением John.
+  // Добавьте свойство surname со значением Smith.
+  // Измените значение свойства name на Pete.
+  // Удалите свойство name из объекта
+
+  const user ={
+  
+  }
+  user.name= 'John';
+  user.surname='Smith';
+  user.name='Pete';
+
+  delete user.name;
+  console.log( user.name)
+
+  let sum = a => a+a;
+   console.log(sum(5));
+   let k= a => a+a+a;
+
+console.log(k(6))
+
+// Сделайте функцию isNumberInRange, которая параметром принимает число и проверяет, 
+// что оно больше нуля и меньше 10. Если это так - пусть функция возвращает true, если не так - false.
+const isNumberInRange = n =>{
+  if(n=>10){
+    return true
+  }
+  return false
+
+}
+console.log(isNumberInRange(5))
+
+// Дан массив с числами. Запишите в новый массив только те числа, которые больше нуля и меньше 10-ти.
+//  
+
+var arr =[1,2,6,87,96,3,45,10,3];
+
+const IsPositve = num =>{
+  if (num=>0 && num<=10){
+    return true
+  }
+  return false
+
+}
+var newArr=[];
+
+for(let i=0; i<arr.length; i++){
+  if(IsPositve(arr[i])){
+    newArr.push(arr[i])
+  }
+}
+console.log(newArr)
+//  Сделайте функцию getDivisors, которая параметром принимает число и возвращает массив его делителей (чисел, на которое делится данное число)
+const getDivisors = n =>{
+  if (n%2 == 0){
+    return   true
+
+  }
+}
+const arrM=[n];
+ 
+console.log(arrM) 
